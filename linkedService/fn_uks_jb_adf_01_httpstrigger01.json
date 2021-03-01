@@ -1,0 +1,18 @@
+{
+	"name": "fn_uks_jb_adf_01_httpstrigger01",
+	"properties": {
+		"annotations": [],
+		"type": "AzureFunction",
+		"typeProperties": {
+			"functionAppUrl": "https://fn-adf-test-01.azurewebsites.net",
+			"functionKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "KV_UKS_JB_ADF_01",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "fn-adf-test-01-httptrigger1-key"
+			}
+		}
+	}
+}
