@@ -1,0 +1,10 @@
+{
+	"name": "KV_UKS_JB_ADF_01",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-uks-jb-adf-01.vault.azure.net/"
+		}
+	}
+}
