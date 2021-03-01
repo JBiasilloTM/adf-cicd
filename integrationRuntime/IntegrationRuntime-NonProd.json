@@ -1,0 +1,6 @@
+{
+	"name": "IntegrationRuntime-NonProd",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
